@@ -1,13 +1,13 @@
 # Project Work Group 4 - DLCV
 This is the project repository for the group 4 at the DLCV. The Team is made up by:
 
-| <img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/IMG_5420.JPG" width="250"> | <img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/IMG_8642.jpg" width="250"> | <img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/Luis.jpg" width="250"> |
+| <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/IMG_5420.jpg" width="250"> | <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/IMG_8642.jpg" width="250"> | <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Luis.jpg" width="250"> |
 | :---: | :---: | :---: |
 | Adrià Gil Sorribes | Genís Floriach Pigem | Luis Esteve Elfau |
 
 It is going to be explained below what has been done during the [Deep Learning for Computer Vison](https://telecombcn-dl.github.io/2017-dlcv/) course at UPC at Summer 2017.
 
-<img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/UPC_ETSETB.jpg" width="600">
+<img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/UPC_ETSETB.jpg" width="600">
 
 # Task 1 - CNN Cifar10
 
@@ -19,11 +19,11 @@ The main objective of this second task is to explore the whole recipe of the CIF
     
     We have developed 2 architectures:
    
-   <img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/Task_1_1v1.png" width="400" > 
+   <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task_1_1v1.png" width="400" > 
 
     And
     
-   <img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/Task_1_1v2.png" width="450" >
+   <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task_1_1v2.png" width="450" >
    
 - Task 1.2 Training the CNN
 
@@ -44,13 +44,13 @@ The main objective of this second task is to do some transfer learning. The main
     
    In this subtask the main goal is to use the previously implemented and trained CNN with the CIFAR10 dataset in order to classify the    images of the new database (TerrassaBuildings). For this reason we will load the model, we will extract the top layers and we will      train a new top_model (fully connected layers) softmax classifier with the new database.
    
-   ![Task21](https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/Task21.PNG)
+   ![Task21](https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task21.PNG)
 
 - Off the Shelf VGG16 + Softmax layer on top of the CNN
 
   In this second subtask the idea is the same as in the previous but this time loading an Imagenet pre-trained model such as the VGG16.   This model has been trained with the imagenet database which is layer and far wider than the CIFAR10. With this configuration we         expect better results.
   
-  ![Task21](https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/Task22.PNG)
+  ![Task21](https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task22.PNG)
 
 
 # Task 3 - Fine-tuning
@@ -72,7 +72,7 @@ Making a quick search we have found the following datasets:
 - Paris Buildings dataset (6K images)
 
 We discarded the first option because we could not find any pretrained network with this dataset written in keras. Besides, it is not a dataset of buildings and many of the classes would not have been helpful for the task. That's why we decided to go with the Oxford Building Dataset. However, after taking a look at the images we found out that many of them were not buildings. 
-<img src="https://github.com/telecombcn-dl/2017-dlcv-team4/blob/master/Images/OxfordimgKK.png" width="500">
+<img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/OxfordimgKK.png" width="500">
 
 
 # Task 5 - Cycle Generative Adversari Network (GAN)
