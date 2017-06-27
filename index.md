@@ -44,13 +44,13 @@ The main objective of this second task is to do some transfer learning. The main
     
    In this subtask the main goal is to use the previously implemented and trained CNN with the CIFAR10 dataset in order to classify the    images of the new database (TerrassaBuildings). For this reason we will load the model, we will extract the top layers and we will      train a new top_model (fully connected layers) softmax classifier with the new database.
    
-   ![Task21](https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task21.PNG)
+   <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task21.PNG" >
 
 - Off the Shelf VGG16 + Softmax layer on top of the CNN
 
   In this second subtask the idea is the same as in the previous but this time loading an Imagenet pre-trained model such as the VGG16.   This model has been trained with the imagenet database which is layer and far wider than the CIFAR10. With this configuration we         expect better results.
   
-  ![Task21](https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task22.PNG)
+  <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Task22.PNG" >
 
 
 # Task 3 - Fine-tuning
