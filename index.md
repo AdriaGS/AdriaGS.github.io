@@ -1,7 +1,7 @@
 # Project Work Group 4 - DLCV
 This is the project repository for the group 4 at the DLCV. The Team is made up by:
 
-| <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/IMG_5420.jpg" width="250"> | <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/IMG_8642.jpg" width="250"> | <img src="https://github.com/AdriaGS/AdriaGS.github.io/blob/master/Images/Luis.jpg" width="250"> |
+| <img src="Images/IMG_5420.jpg" width="250"> | <img src="Images/IMG_8642.jpg" width="250"> | <img src="Images/Luis.jpg" width="250"> |
 | :---: | :---: | :---: |
 | Adrià Gil Sorribes | Genís Floriach Pigem | Luis Esteve Elfau |
 
